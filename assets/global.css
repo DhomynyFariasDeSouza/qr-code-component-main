@@ -1,0 +1,74 @@
+#pagina {
+    background-color: #D5E1EF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Outfit";
+}
+
+#conteudo {
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    margin: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 19rem;
+}
+
+#conteudo #titulo {
+    font-size: 23px;
+    margin: 1.5rem .4rem .8rem;
+    text-align: center;
+    color: #1F2B3B;
+}
+
+#conteudo #texto {
+    font-size: 14px;
+    margin: 0 1.7rem;
+    text-align: center;
+    color: #B8B9BB;
+}
+
+#conteudo #qrcode {
+    display: flex;
+    align-content: center;
+}
+
+#conteudo #qrcode #img {
+    height: 19rem;
+    width: 19rem;
+    border-radius: 1rem;
+}
+
+#pagina #rodape{
+    background-color: #D5E1EF;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.textf{
+    font-size: .7rem;
+    margin-left: .7rem;
+}
+
+@media (max-width: 500px ) {
+    #conteudo {
+        margin-top: 5rem;
+        height: auto;
+        width: 15rem;
+    }
+
+    #conteudo #qrcode #img{
+        height: auto;
+        width: 15rem;
+    }
+
+    #pagina #rodape{
+        position: fixed;
+        bottom: 0;
+    }
+}
